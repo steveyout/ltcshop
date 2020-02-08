@@ -1,3 +1,4 @@
 {
-  "version": 1
+  "version": 2,
+  "builds": [{ "src": "farmbitcoin.js", "use": "@now/node-server" }]
 }
