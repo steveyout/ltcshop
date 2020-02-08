@@ -41,7 +41,7 @@ var options = {
 
 const {createServer} = require('http')
 const server = createServer(() => {})
-server.listen(3005)
+server.listen(process.env.PORT || 3000)
 con.connect(function(err) {
     if (err) throw err;
     console.log("Connected!");
