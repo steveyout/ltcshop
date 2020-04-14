@@ -2090,4 +2090,4 @@ bot.hears('Admin',enter('admin'))
 
 
 
-bot.startPolling()
+bot.launch()
